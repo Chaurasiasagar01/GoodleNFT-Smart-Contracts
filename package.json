@@ -1,0 +1,64 @@
+{
+  "name": "goodlenft-contracts",
+  "version": "0.0.6",
+  "description": "GoodleNFT Smart Contracts",
+  "main": "",
+  "scripts": {},
+  "author": "GoodleNFT",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@openzeppelin/contracts": "^4.3.3",
+    "@openzeppelin/contracts-upgradeable": "^4.3.3",
+    "@openzeppelin/hardhat-defender": "^1.5.1",
+    "@openzeppelin/hardhat-upgrades": "^1.12.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@typechain/ethers-v5": "^8.0.4",
+    "@typechain/hardhat": "^3.0.0",
+    "@types/chai": "^4.2.22",
+    "@types/config": "^0.0.40",
+    "@types/debug": "^4.1.7",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.9",
+    "chai": "^4.3.4",
+    "config": "^3.3.6",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.8",
+    "hardhat-contract-sizer": "^2.1.1",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.6",
+    "solhint-plugin-prettier": "^0.0.5",
+    "solidity-coverage": "^0.7.17",
+    "ts-node": "^10.4.0",
+    "typechain": "^6.0.4",
+    "typescript": "^4.5.2"
+  },
+  "homepage": "https://goodlenft.com/",
+  "keywords": [
+    "Google",
+    "Doodle",
+    "NFT",
+    "BSC",
+    "Binance Smart Chain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "contracts/interfaces/*.sol",
+    "contracts/libraries/*.sol",
+    "contracts/*.sol",
+    "artifacts/contracts/**/*.json"
+  ],
+  "engines": {
+    "node": ">=10"
+  }
+}
